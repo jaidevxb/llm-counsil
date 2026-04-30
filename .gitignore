@@ -1,0 +1,23 @@
+# API Keys and Secrets (CRITICAL)
+.env
+*.env
+secret_keys.txt
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+venv/
+env/
+.venv/
+
+# Streamlit
+.streamlit/config.toml
+.streamlit/static/
+
+# OS specific files
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log

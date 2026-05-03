@@ -8,7 +8,13 @@ Each expert has a distinct role and hardcoded system prompt.
 import litellm
 import os
 from datetime import date
-from dotenv import load_dotenv
+try:
+    import streamlit as st
+    GEMINI_API_KEY = st.secrets["GEMINI_API_KEY"]
+except Exception:
+    from dotenv import load_dotenv
+    load_dotenv()
+    GEMINI_API_KEY = os.getenv("GEMINI_API_KEY")
 
 load_dotenv()
 litellm.api_key = os.getenv("GEMINI_API_KEY")

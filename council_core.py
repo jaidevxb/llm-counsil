@@ -16,8 +16,6 @@ except Exception:
     load_dotenv()
     GEMINI_API_KEY = os.getenv("GEMINI_API_KEY")
 
-load_dotenv()
-litellm.api_key = os.getenv("GEMINI_API_KEY")
 
 # ──────────────────────────────────────────────
 #  EXPERT DEFINITIONS  (roles + system prompts)

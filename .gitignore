@@ -12,7 +12,7 @@ env/
 .venv/
 
 # Streamlit
-.streamlit/config.toml
+.streamlit/secrets.toml
 .streamlit/static/
 
 # OS specific files

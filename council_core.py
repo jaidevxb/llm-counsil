@@ -56,8 +56,8 @@ EXPERTS = [
     {
         "id": 3,
         "role": "The Moderator",
-        "model": "gemini/gemma-3-27b-it",
-        "tagline": "Gemma 3 27B — open-weights model for balanced, grounded synthesis",
+        "model": "gemini/gemini-2.5-flash",
+        "tagline": "Gemini 2.5 Flash — fast, efficient synthesis for balanced decision-making",
         "emoji": "⚖️",
         "color": "#66BB6A",
         "system_prompt": (
